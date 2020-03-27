@@ -31,6 +31,11 @@ public class MiJoseDaniel extends HttpServlet {
 		pw.println("<html><body>");  
 		pw.println("Jose Daniel Rodriguez Castro");  
 		pw.println("</body></html>");  
+		System.out.println("Hola esto es un trozo de codigo");
+		int a = 5;
+		int b = 5;
+		int resultado = a+b;
+		System.out.println(resultado);
 
 		pw.close();//closing the stream  
 		
